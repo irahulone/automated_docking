@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'director = control_directives.docking_director:main',
             'fcmc = control_directives.fluid_charge_management_controller:main',
         ],
     },
